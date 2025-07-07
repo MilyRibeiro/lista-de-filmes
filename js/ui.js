@@ -7,6 +7,7 @@ const ui = {
     document.getElementById("filme-id").value = filme.id;
     document.getElementById("filme-nome").value = filme.nome;
     document.getElementById("filme-genero").value = filme.genero;
+    document.getElementById('filme-data').value = filme.data;
   },
 
   limparFormulario() {
@@ -30,6 +31,7 @@ const ui = {
 
     } catch {
       alert('Erro ao renderizar filmes');
+      console.error(error);
     };
   },
 
@@ -47,6 +49,10 @@ const ui = {
     filmeGenero.textContent = filme.genero;
     filmeGenero.classList.add("filme-genero");
 
+    const filmeData = document.createElement("div");
+    filmeData.textContent = filme.data;
+    filmeData.classList.add("filme-data");
+
     const botaoEditar = document.createElement("button");
     botaoEditar.classList.add("botao-editar");
     botaoEditar.onclick = () => ui.preencherFormulario(filme.id);
@@ -63,8 +69,10 @@ const ui = {
       try {
         await api.excluirFilme(filme.id);
         ui.renderizarFilmes();
+        
       } catch (error) {
         alert("Erro ao excluir filme");
+        console.error(error);
       };
     };
 
@@ -82,6 +90,7 @@ const ui = {
 
       } catch (error) {
         alert('Erro ao atualizar favorito.');
+        console.error(error);
       };
     };
 
@@ -98,6 +107,7 @@ const ui = {
 
     li.appendChild(filmeNome);
     li.appendChild(filmeGenero);
+    li.appendChild(filmeData);
     li.appendChild(icones);
     listaFilmes.appendChild(li);
   }

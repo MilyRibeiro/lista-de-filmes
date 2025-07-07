@@ -19,18 +19,24 @@ async function manipularSubmissaoFormulario(event) {
   const id = document.getElementById("filme-id").value;
   const nome = document.getElementById("filme-nome").value;
   const genero = document.getElementById("filme-genero").value;
+  const lancamento = document.getElementById('data-lancamento').value;
+
+  if(!validarData(lancamento)) {
+    alert('Parece que esse filme ainda não foi lançado!');
+    return;
+  }
 
   try {
     if (id) {
-      await api.editarFilme({ id, nome, genero });
+      await api.editarFilme({ id, nome, genero, lancamento });
     } else {
-      await api.salvarFilme({ nome, genero });
+      await api.salvarFilme({ nome, genero, lancamento });
     };
 
     ui.renderizarFilmes();
 
   } catch {
-    alert("Erro ao salvar filme");
+    alert("Erro ao salvar o filme");
   };
 };
 
@@ -49,3 +55,9 @@ async function manipularBusca() {
     alert('Erro ao realizar a busca.');
   }
 };
+
+function validarData(data) {
+  const dataAtual = new Date();
+  const dataInserida = new Date(data);
+  return dataInserida <= dataAtual;
+}

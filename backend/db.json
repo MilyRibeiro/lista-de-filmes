@@ -2,117 +2,130 @@
   "filmes": [
     {
       "id": "1001",
-      "favorito": true,
       "nome": "O Iluminado",
-      "genero": "Terror"
+      "genero": "Terror",
+      "lancamento": "1980-12-25"
     },
     {
       "id": "1002",
-      "favorito": false,
       "nome": "Forrest Gump: O Contador de Histórias",
-      "genero": "Drama"
+      "genero": "Drama",
+      "lancamento": "1994-08-16"
     },
     {
       "id": "1003",
-      "favorito": false,
       "nome": "Matrix",
-      "genero": "Ficção Científica"
+      "genero": "Ficção Científica",
+      "lancamento": "1999-03-31"
     },
     {
       "id": "1004",
-      "favorito": true,
       "nome": "Batman: O Cavaleiro das Trevas",
-      "genero": "Ação"
+      "genero": "Ação",
+      "lancamento": "2008-07-18"
     },
     {
       "id": "1005",
-      "favorito": false,
       "nome": "Alien: Romulus",
-      "genero": "Ficção Científica"
+      "genero": "Ficção Científica",
+      "lancamento": "2023-09-19"
     },
     {
       "id": "1006",
-      "favorito": false,
       "nome": "A Origem",
-      "genero": "Ficção Científica"
+      "genero": "Ficção Científica",
+      "lancamento": "2010-07-22"
+    },
+    {
+      "id": "1007",
+      "nome": "O Poderoso Chefão",
+      "genero": "Drama",
+      "lancamento": "1972-07-07"
     },
     {
       "id": "1008",
-      "favorito": false,
-      "nome": "Tropa de Elite",
-      "genero": "Ação"
+      "nome": "Senhor dos Anéis: A Sociedade do Anel",
+      "genero": "Fantasia",
+      "lancamento": "2001-12-19"
     },
     {
       "id": "1009",
-      "favorito": false,
-      "nome": "O Senhor dos Anéis: A Sociedade do Anel",
-      "genero": "Fantasia"
+      "nome": "Clube da Luta",
+      "genero": "Drama",
+      "lancamento": "1999-10-29"
     },
     {
       "id": "1010",
-      "favorito": false,
-      "nome": "Central do Brasil",
-      "genero": "Drama"
+      "nome": "Gladiador",
+      "genero": "Ação",
+      "lancamento": "2000-05-19"
     },
     {
       "id": "1011",
-      "favorito": true,
-      "nome": "Corra!",
-      "genero": "Suspense"
+      "nome": "Jurassic Park: O Parque dos Dinossauros",
+      "genero": "Aventura",
+      "lancamento": "1993-06-25"
     },
     {
       "id": "1012",
-      "favorito": false,
-      "nome": "O Rei Leão",
-      "genero": "Animação"
+      "nome": "O Resgate do Soldado Ryan",
+      "genero": "Guerra",
+      "lancamento": "1998-09-11"
     },
     {
       "id": "1013",
-      "favorito": false,
-      "nome": "Os Vingadores: Ultimato",
-      "genero": "Ação"
+      "nome": "Coringa",
+      "genero": "Drama",
+      "lancamento": "2019-10-03"
     },
     {
       "id": "1014",
-      "favorito": false,
-      "nome": "O Labirinto do Fauno",
-      "genero": "Fantasia"
+      "nome": "Vingadores: Ultimato",
+      "genero": "Ação",
+      "lancamento": "2019-04-25"
     },
     {
       "id": "1015",
-      "favorito": false,
-      "nome": "A Vida é Bela",
-      "genero": "Comédia Dramática"
+      "nome": "Interestelar",
+      "genero": "Ficção Científica",
+      "lancamento": "2014-11-07"
     },
     {
       "id": "1016",
-      "favorito": false,
-      "nome": "Parasita",
-      "genero": "Drama"
+      "nome": "Pulp Fiction: Tempo de Violência",
+      "genero": "Crime",
+      "lancamento": "1994-10-24"
     },
     {
       "id": "1017",
-      "favorito": false,
-      "nome": "Gravidade",
-      "genero": "Ficção Científica"
+      "nome": "De Volta para o Futuro",
+      "genero": "Ficção Científica",
+      "lancamento": "1985-12-25"
     },
     {
       "id": "1018",
-      "favorito": false,
-      "nome": "Até o Último Homem",
-      "genero": "Guerra"
+      "nome": "O Senhor dos Anéis: O Retorno do Rei",
+      "genero": "Fantasia",
+      "lancamento": "2004-01-17"
     },
     {
       "id": "1019",
-      "favorito": false,
-      "nome": "Divertida Mente",
-      "genero": "Animação"
+      "nome": "O Lobo de Wall Street",
+      "genero": "Biografia",
+      "lancamento": "2014-01-25"
     },
     {
       "id": "1020",
-      "favorito": false,
-      "nome": "Pulp Fiction: Tempo de Violência",
-      "genero": "Crime"
+      "nome": "Mad Max: Estrada da Fúria",
+      "genero": "Ação",
+      "lancamento": "2015-05-14"
+    },
+    {
+      "id": "7cca",
+      "nome": "Superman",
+      "genero": "Super-herois",
+      "lancamento": "2025-07-06",
+      "data": "2025"
     }
   ]
 }

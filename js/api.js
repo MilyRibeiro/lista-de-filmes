@@ -1,24 +1,42 @@
 const url = "http://localhost:3000";
+const converterData = (dataString) => {
+  const [ano] = dataString.split("-");
+  return ano;
+};
 
 const api = {
   async buscarFilmes() {
     try {
       const response = await axios.get(`${url}/filmes`);
-      return await response.data;
+      const filmes = await response.data;
+      // return await response.data;
+      return filmes.map(filme => {
+        return {
+          ...filme,
+          data: converterData(filme.lancamento)
+        };
+      });
     }
     catch {
       alert('Erro ao buscar filmes');
+      console.error(error);
       throw error;
     };
   },
 
   async salvarFilme(filme) {
     try {
-      const response = await axios.post(`${url}/filmes`, filme);
+      // const response = await axios.post(`${url}/filmes`, filme);
+      const response = await axios.post(`${url}/filmes`, {
+        ...filme,
+        data: converterData(filme.lancamento)
+      });
+
       return await response.data;
     }
     catch {
       alert('Erro ao salvar filme');
+      console.error(error);
       throw error;
     };
   },
@@ -26,10 +44,17 @@ const api = {
   async buscarFilmePorId(id) {
     try {
       const response = await axios.get(`${url}/filmes/${id}`);
-      return await response.data;
+      const filme = await response.data;
+      // return await response.data;
+
+      return {
+        ...filme,
+        data: converterData(filme.lancamento)
+      };
     }
     catch {
       alert('Erro ao buscar filme');
+      console.error(error);
       throw error;
     };
   },
@@ -41,6 +66,7 @@ const api = {
     }
     catch {
       alert('Erro ao editar filme');
+      console.error(error);
       throw error;
     };
   },
@@ -51,6 +77,7 @@ const api = {
     }
     catch {
       alert('Erro ao excluir um filme');
+      console.error(error);
       throw error;
     };
   },
@@ -67,6 +94,7 @@ const api = {
 
     } catch (error) {
       alert('Erro ao filtrar os filmes!');
+      console.error(error);
       throw error;
     };
   },
@@ -83,4 +111,4 @@ const api = {
   }
 };
 
-export default api
+export default api;
