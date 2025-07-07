@@ -2,104 +2,117 @@
   "filmes": [
     {
       "id": "1001",
+      "favorito": true,
       "nome": "O Iluminado",
       "genero": "Terror"
     },
     {
       "id": "1002",
+      "favorito": false,
       "nome": "Forrest Gump: O Contador de Histórias",
       "genero": "Drama"
     },
     {
       "id": "1003",
+      "favorito": false,
       "nome": "Matrix",
       "genero": "Ficção Científica"
     },
     {
       "id": "1004",
+      "favorito": true,
       "nome": "Batman: O Cavaleiro das Trevas",
       "genero": "Ação"
     },
     {
       "id": "1005",
+      "favorito": false,
       "nome": "Alien: Romulus",
       "genero": "Ficção Científica"
     },
     {
       "id": "1006",
+      "favorito": false,
       "nome": "A Origem",
       "genero": "Ficção Científica"
     },
     {
-      "id": "1007",
-      "nome": "Cidade de Deus",
-      "genero": "Drama"
-    },
-    {
       "id": "1008",
+      "favorito": false,
       "nome": "Tropa de Elite",
       "genero": "Ação"
     },
     {
       "id": "1009",
+      "favorito": false,
       "nome": "O Senhor dos Anéis: A Sociedade do Anel",
       "genero": "Fantasia"
     },
     {
       "id": "1010",
+      "favorito": false,
       "nome": "Central do Brasil",
       "genero": "Drama"
     },
     {
       "id": "1011",
+      "favorito": true,
       "nome": "Corra!",
       "genero": "Suspense"
     },
     {
       "id": "1012",
+      "favorito": false,
       "nome": "O Rei Leão",
       "genero": "Animação"
     },
     {
       "id": "1013",
+      "favorito": false,
       "nome": "Os Vingadores: Ultimato",
       "genero": "Ação"
     },
     {
       "id": "1014",
+      "favorito": false,
       "nome": "O Labirinto do Fauno",
       "genero": "Fantasia"
     },
     {
       "id": "1015",
+      "favorito": false,
       "nome": "A Vida é Bela",
       "genero": "Comédia Dramática"
     },
     {
       "id": "1016",
+      "favorito": false,
       "nome": "Parasita",
       "genero": "Drama"
     },
     {
       "id": "1017",
+      "favorito": false,
       "nome": "Gravidade",
       "genero": "Ficção Científica"
     },
     {
       "id": "1018",
+      "favorito": false,
       "nome": "Até o Último Homem",
       "genero": "Guerra"
     },
     {
       "id": "1019",
+      "favorito": false,
       "nome": "Divertida Mente",
       "genero": "Animação"
     },
     {
       "id": "1020",
+      "favorito": false,
       "nome": "Pulp Fiction: Tempo de Violência",
       "genero": "Crime"
     }
   ]
 }
-

@@ -69,6 +69,17 @@ const api = {
       alert('Erro ao filtrar os filmes!');
       throw error;
     };
+  },
+
+  async atualizarFavorito(id, favorito) {
+    try {
+      const response = await axios.patch(`${url}/filmes/${id}`, {favorito});
+      return response.data;
+
+    } catch (error) {
+      alert('Erro ao atualizar o favorito.', error);
+      throw error;
+    }
   }
 };
 
