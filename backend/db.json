@@ -1,0 +1,105 @@
+{
+  "filmes": [
+    {
+      "id": "1001",
+      "nome": "O Iluminado",
+      "genero": "Terror"
+    },
+    {
+      "id": "1002",
+      "nome": "Forrest Gump: O Contador de Histórias",
+      "genero": "Drama"
+    },
+    {
+      "id": "1003",
+      "nome": "Matrix",
+      "genero": "Ficção Científica"
+    },
+    {
+      "id": "1004",
+      "nome": "Batman: O Cavaleiro das Trevas",
+      "genero": "Ação"
+    },
+    {
+      "id": "1005",
+      "nome": "Alien: Romulus",
+      "genero": "Ficção Científica"
+    },
+    {
+      "id": "1006",
+      "nome": "A Origem",
+      "genero": "Ficção Científica"
+    },
+    {
+      "id": "1007",
+      "nome": "Cidade de Deus",
+      "genero": "Drama"
+    },
+    {
+      "id": "1008",
+      "nome": "Tropa de Elite",
+      "genero": "Ação"
+    },
+    {
+      "id": "1009",
+      "nome": "O Senhor dos Anéis: A Sociedade do Anel",
+      "genero": "Fantasia"
+    },
+    {
+      "id": "1010",
+      "nome": "Central do Brasil",
+      "genero": "Drama"
+    },
+    {
+      "id": "1011",
+      "nome": "Corra!",
+      "genero": "Suspense"
+    },
+    {
+      "id": "1012",
+      "nome": "O Rei Leão",
+      "genero": "Animação"
+    },
+    {
+      "id": "1013",
+      "nome": "Os Vingadores: Ultimato",
+      "genero": "Ação"
+    },
+    {
+      "id": "1014",
+      "nome": "O Labirinto do Fauno",
+      "genero": "Fantasia"
+    },
+    {
+      "id": "1015",
+      "nome": "A Vida é Bela",
+      "genero": "Comédia Dramática"
+    },
+    {
+      "id": "1016",
+      "nome": "Parasita",
+      "genero": "Drama"
+    },
+    {
+      "id": "1017",
+      "nome": "Gravidade",
+      "genero": "Ficção Científica"
+    },
+    {
+      "id": "1018",
+      "nome": "Até o Último Homem",
+      "genero": "Guerra"
+    },
+    {
+      "id": "1019",
+      "nome": "Divertida Mente",
+      "genero": "Animação"
+    },
+    {
+      "id": "1020",
+      "nome": "Pulp Fiction: Tempo de Violência",
+      "genero": "Crime"
+    }
+  ]
+}
+
