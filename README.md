@@ -4,17 +4,17 @@ A Lista de Filmes é um aplicativo organizador de filmes que permite cadastrar, 
 
 ## 🔨 Funcionalidades do projeto
 
-`Cadastro de pensamentos`: Permite adicionar novos filmes à lista, inserindo informações como o título e o gênero.
+`Cadastro de filmes`: Permite adicionar novos filmes à lista, inserindo informações como o título e o gênero.
 
-`Listagem de pensamentos`: Exibe os filmes cadastrados, permitindo visualizar o título e o gênero.
+`Listagem de filmes`: Exibe os filmes cadastrados, permitindo visualizar o título e o gênero.
 
-`Edição de pensamentos`: Permite editar os filmes existentes, atualizando as informações conforme necessário.
+`Edição de filmes`: Permite editar os filmes existentes, atualizando as informações conforme necessário.
 
-`Exclusão de pensamentos`: Permite remover filmes da lista.
+`Exclusão de filmes`: Permite remover filmes da lista.
 
 `Busca typeahead`: Implementa uma funcionalidade de busca com sugestões automáticas, permitindo filtrar filmes conforme a pessoa digita.
 
-`Favoritar pensamentos`: Adiciona a opção de favoritar filmes, destacando os favoritos na lista para fácil acesso.
+`Favoritar filmes`: Adiciona a opção de favoritar filmes, destacando os favoritos na lista para fácil acesso.
 
 `Validações de formulário com Regex`: Utiliza expressões regulares para validar campos do formulário, garantindo que os dados inseridos estejam no formato correto antes do envio.
 
